@@ -6,7 +6,7 @@ export default function Home() {
           <p className="text-6xl text-center text-darkColor w-11/12 ">Let’s create something great together.</p>
         </div>
         
-        <div className="flex flex-row w-10/12 mt-28">
+        <div className="flex flex-row w-10/12 mt-28 justify-between">
           <div>
             <img src="/hand-1.png"></img>
           </div>
@@ -44,7 +44,7 @@ export default function Home() {
           </div>
         </div>
         
-        <div className="bg-yellow-200 mx-auto w-10/12 ">
+        <div className=" mx-auto w-10/12 flex items-center justify-center ">
           <img src="/mid-img.png" />
         </div>
       </div>
